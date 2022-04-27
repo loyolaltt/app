@@ -39,5 +39,5 @@ if(navigator.onLine){
 //     alert("Online");
 }
 else{
-    alert("Offline");
+//     alert("Offline");
 }
