@@ -36,7 +36,7 @@ var data=$.getJSON(staticUrl, function(data){
 );
 
 if(navigator.onLine){
-    alert("Online");
+//     alert("Online");
 }
 else{
     alert("Offline");
