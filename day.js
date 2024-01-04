@@ -11,7 +11,7 @@ var data=$.getJSON(staticUrl, function(data){
     var yyyy=today.getFullYear();
 
     today = mm+'/'+dd+'/'+yyyy;
-    // console.log(today); 
+    console.log(today); 
 
 
 
@@ -25,7 +25,7 @@ var data=$.getJSON(staticUrl, function(data){
             results.push(data.user[i].Day);
         }
     }
-    // console.log(results[0]);
+    console.log(results[0]);
 
     document.getElementById("do").innerHTML=results[0];
 
