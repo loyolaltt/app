@@ -11,7 +11,8 @@ var data=$.getJSON(staticUrl, function(data){
     var yyyy=today.getFullYear();
 
     today = mm+'/'+dd+'/'+yyyy;
-    // console.log(today); 
+    console.log(today);
+    console.log("Helo");
 
 
 
