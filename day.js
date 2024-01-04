@@ -12,6 +12,7 @@ var data=$.getJSON(staticUrl, function(data){
 
     today = mm+'/'+dd+'/'+yyyy;
     console.log(today); 
+    console.log("Hello");
 
 
 
